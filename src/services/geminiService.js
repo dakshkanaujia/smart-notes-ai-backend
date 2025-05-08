@@ -36,7 +36,7 @@ class GeminiService {
   }
 
   async generateKeyPoints(text) {
-    const prompt = `Extract 5–8 key points from the following text as a numbered list:\n\n${text}`;
+    const prompt = `Extract 5-8 key points from the following text as a numbered list:\n\n${text}`;
     return this.callModel(prompt);
   }
 
